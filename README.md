@@ -235,57 +235,6 @@ curl -X POST http://localhost:3000/quizzes \
   }'
 ```
 
-## Якість коду
-
-### Backend
-
-Запустіть лінтер:
-```bash
-cd backend
-npm run lint
-```
-
-Форматування коду:
-```bash
-npm run format
-```
-
-### Frontend
-
-Запустіть лінтер:
-```bash
-cd frontend
-npm run lint
-```
-
-## Особливості
-
-- ✅ Повна підтримка TypeScript
-- ✅ Валідація даних на backend
-- ✅ Адаптивний дизайн (mobile-friendly)
-- ✅ Динамічне додавання/видалення питань
-- ✅ Підтримка трьох типів питань
-- ✅ RESTful API
-- ✅ ESLint та Prettier налаштовані
-- ✅ Чистий та модульний код
-
-## Розробка
-
-### Backend структура
-
-- `src/prisma/prisma.service.ts` - Сервіс для роботи з Prisma
-- `src/quizzes/quizzes.controller.ts` - Контролер для endpoints
-- `src/quizzes/quizzes.service.ts` - Бізнес-логіка
-- `src/quizzes/dto/create-quiz.dto.ts` - DTO для валідації
-
-### Frontend структура
-
-- `app/create/page.tsx` - Сторінка створення квізу
-- `app/quizzes/page.tsx` - Сторінка списку квізів
-- `app/quizzes/[id]/page.tsx` - Сторінка деталей квізу
-- `lib/api.ts` - API клієнт
-- `types/quiz.ts` - TypeScript типи
-
 ## Ліцензія
 
 UNLICENSED
