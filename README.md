@@ -234,8 +234,3 @@ curl -X POST http://localhost:3000/quizzes \
     ]
   }'
 ```
-
-## Ліцензія
-
-UNLICENSED
-
